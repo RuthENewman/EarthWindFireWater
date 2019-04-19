@@ -13,7 +13,7 @@ body, html {
   text-align: center;
   margin-top: 60px;
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .toggle {
@@ -100,7 +100,7 @@ color: white;
   border-radius: 250px 0 0 0;
   -moz-border-radius: 250px 0 0 0;
   -webkit-border-radius: 250px 0 0 0;
-  background-image: url('water.jpg');
+  background-color: lightgreen;
   top: 50%;
   left: 50%;
   margin: -250px 0px 0px -250px;
@@ -118,7 +118,7 @@ color: white;
   border-radius: 0 250px 0 0;
   -moz-border-radius: 0 250px 0 0;
   -webkit-border-radius: 0 250px 0 0;
-  background-image: url('fire.jpg');
+  background-color: lightgrey;
   top: 50%;
   left: 50%;
   margin: -250px 0px 0px 0px;
@@ -136,7 +136,7 @@ color: white;
   border-radius: 0 0 0 250px;
   -moz-border-radius: 0 0 0 250px;
   -webkit-border-radius: 0 0 0 250px;
-  background-image: url('storm.jpg');
+  background-color: tomato;
   top: 50%;
   left: 50%;
   margin: 0px -250px 0px -250px;
@@ -154,7 +154,7 @@ color: white;
   border-radius: 0 0 250px 0;
   -moz-border-radius: 0 0 250px 0;
   -webkit-border-radius: 0 0 250px 0;
-  background-image: url('grass.jpg');
+  background-color: lightskyblue;
   top: 50%;
   left: 50%;
   margin: 0px 0px -250px 0px;
@@ -220,7 +220,7 @@ color: white;
         /* border-radius: 125px 0 0 0; */
         -moz-border-radius: 125px 0 0 0;
         /* -webkit-border-radius: 125px 0 0 0; */
-        background-image: url(water.jpg);
+        background-color: lightgreen;
         top: 50%;
         left: 50%;
         margin: -162.5px 0px 0px -162.5px;
@@ -239,7 +239,7 @@ color: white;
         /* border-radius: 0 125px 0 0; */
         -moz-border-radius: 0 125px 0 0;
         /* -webkit-border-radius: 0 125px 0 0; */
-        background-image: url(fire.jpg);
+        background-color: lightgrey;
         top: 50%;
         left: 50%;
         margin: -162.5px 0px 0px 0px;
@@ -258,7 +258,7 @@ color: white;
         /* border-radius: 0 0 0 125px; */
         -moz-border-radius: 0 0 0 125px;
         /* -webkit-border-radius: 0 0 0 125px; */
-        background-image: url(storm.jpg);
+        background-color: tomato;
         top: 50%;
         left: 50%;
         margin: 0px -162.5px 0px -162.5px;
@@ -277,7 +277,7 @@ color: white;
         /* border-radius: 0 0 125px 0; */
         -moz-border-radius: 0 0 125px 0;
         /* -webkit-border-radius: 0 0 125px 0; */
-        background-image: url(grass.jpg);
+        background-color: lightskyblue;
         top: 50%;
         left: 50%;
         margin: 0px 0px -162.5px 0px;
@@ -357,7 +357,7 @@ color: white;
         margin-top: 115px;
         text-align: center;
         vertical-align: middle;
-        line-height: 30px;
+        line-height: 20px;
     }
 
     span#power {
