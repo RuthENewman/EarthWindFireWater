@@ -1,0 +1,373 @@
+body, html {
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  background-size: cover;
+  /* background-repeat: repeat; */
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.toggle {
+  margin: 0 20px;
+}
+
+.button {
+  font-size: 1.2em;
+  background-color: blue;
+  margin-top: 10px;
+}
+
+#start {
+  border-radius: 50%;
+  padding: 0.6em;
+  color: white;
+}
+
+#switches {
+  position: absolute;
+  font-family: 'Arial';
+  margin-left: 26px;
+  margin-top: 90px;
+}
+
+.text2 {
+  position: absolute;
+  margin-left: 87px;
+  margin-top: 202px;
+  color: white;
+}
+
+.text1 {
+  position: absolute;
+  margin-left: 19px;
+  margin-top: 135px;
+  color: white;
+}
+
+.text1 span:last-child {
+  padding-left: 70px;
+}
+
+#title {
+position: absolute;
+font-size: 22px;
+margin-left: 35px;
+margin-top: 40px;
+color: white;
+}
+
+#turn {
+  position: absolute;
+  background: #92FE9D;
+  color: black;
+  font-family: courier;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  margin-left: 90px;
+  margin-top: 170px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#outer-circle {
+  background: #385a94;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  border-style: solid;
+  border-width: 10px;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 8px 8px 15px 5px #888;
+}
+
+#topLeft {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px 0 0 0;
+  -moz-border-radius: 250px 0 0 0;
+  -webkit-border-radius: 250px 0 0 0;
+  background-image: url('water.jpg');
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px -250px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#topRight {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 250px 0 0;
+  -moz-border-radius: 0 250px 0 0;
+  -webkit-border-radius: 0 250px 0 0;
+  background-image: url('fire.jpg');
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#bottomLeft {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 0 250px;
+  -moz-border-radius: 0 0 0 250px;
+  -webkit-border-radius: 0 0 0 250px;
+  background-image: url('storm.jpg');
+  top: 50%;
+  left: 50%;
+  margin: 0px -250px 0px -250px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#bottomRight {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 250px 0;
+  -moz-border-radius: 0 0 250px 0;
+  -webkit-border-radius: 0 0 250px 0;
+  background-image: url('grass.jpg');
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px -250px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#inner-circle {
+  position: absolute;
+  background: #00C9FF;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0px 0px -125px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body, html {
+    background: #00C9FF;
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    background-size: cover;
+    /* background-repeat: repeat; */
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  #outer-circle {
+     background: #385a94;
+     height: 325px;
+     width: 325px;
+     position: relative;
+     border-style: solid;
+     border-width: 4px;
+     margin: auto;
+     margin-top: 60px;
+     box-shadow: none;
+     border: none;
+  }
+   .heading {
+     text-align: center;
+     margin-top: 50px;
+     color: white;
+     font-size: 1.5em;
+     margin-bottom: 20px;
+  }
+
+    #topLeft {
+        position: absolute;
+        height: 162.5px;
+        width: 162.5px;
+        /* border-radius: 125px 0 0 0; */
+        -moz-border-radius: 125px 0 0 0;
+        /* -webkit-border-radius: 125px 0 0 0; */
+        background-image: url(water.jpg);
+        top: 50%;
+        left: 50%;
+        margin: -162.5px 0px 0px -162.5px;
+        border-style: solid;
+        border-width: 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0;
+    }
+
+    #topRight {
+        position: absolute;
+        height: 162.5px;
+        width: 162.5px;
+        /* border-radius: 0 125px 0 0; */
+        -moz-border-radius: 0 125px 0 0;
+        /* -webkit-border-radius: 0 125px 0 0; */
+        background-image: url(fire.jpg);
+        top: 50%;
+        left: 50%;
+        margin: -162.5px 0px 0px 0px;
+        border-style: solid;
+        border-width: 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0;
+    }
+
+    #bottomLeft {
+        position: absolute;
+        height: 162.5px;
+        width: 162.5px;
+        /* border-radius: 0 0 0 125px; */
+        -moz-border-radius: 0 0 0 125px;
+        /* -webkit-border-radius: 0 0 0 125px; */
+        background-image: url(storm.jpg);
+        top: 50%;
+        left: 50%;
+        margin: 0px -162.5px 0px -162.5px;
+        border-style: solid;
+        border-width: 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0;
+    }
+
+    #bottomRight {
+        position: absolute;
+        height: 162.5px;
+        width: 162.5px;
+        /* border-radius: 0 0 125px 0; */
+        -moz-border-radius: 0 0 125px 0;
+        /* -webkit-border-radius: 0 0 125px 0; */
+        background-image: url(grass.jpg);
+        top: 50%;
+        left: 50%;
+        margin: 0px 0px -162.5px 0px;
+        border-style: solid;
+        border-width: 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0;
+    }
+    #inner-circle {
+        position: absolute;
+        background: #00C9FF;
+        border-radius: 50%;
+        height: 162.5px;
+        width: 162.5px;
+        border-style: solid;
+        border-width: 10px;
+        top: 50%;
+        left: 50%;
+        margin: -81.25px 0px 0px -81.25px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    #title {
+      display: none;
+    }
+
+    #switches {
+        position: absolute;
+        font-family: 'Arial';
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .button {
+        font-size: 0.8em;
+        background-color: blue;
+        margin-top: 5px;
+    }
+
+    .toggle {
+        margin: 0 30px;
+    }
+
+    .text2 {
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 100px;
+        color: white;
+        font-size: 0.8em;
+    }
+
+      .text1 {
+      position: absolute;
+      margin-left: 19px;
+      margin-top: 43px;
+      font-size: 0.6em;
+      color: white;
+    }
+
+    .text1 span:last-child {
+    padding-left: 0px;
+    margin-top: 50px;
+    }
+
+    #turn {
+        position: absolute;
+        background: #92FE9D;
+        color: black;
+        font-family: courier;
+        font-size: 0.6em;
+        height: 20px;
+        width: 40px;
+        margin-left: 51px;
+        margin-top: 115px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+    }
+
+    span#power {
+      position: absolute;
+      margin-top: -10px;
+    }
+
+    span#strict {
+        position: absolute;
+        margin-top: 39px;
+    }
+
+}
